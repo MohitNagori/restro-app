@@ -1,7 +1,15 @@
 .row {
-    display: flex;    
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .column {
     flex: 1;
+    padding: 20px;
+}
+
+.radio-list {
+    list-style: none;
+    padding-left: 0;
 }
